@@ -11,6 +11,7 @@
     <link name="base_link">
       <collision name="base_collision">
         <pose>0 0 0 0 0 0</pose>
+        <mass>40.0</mass>
         <geometry>
           <box>
             <size>0.4385 0.25 0.06</size>
@@ -141,8 +142,8 @@
 
     <!-- *********************** DRIVE WHEELS ******************************  -->
     <link name="drivewhl_l_link">
-      <pose>0.10575 -0.1255 -0.05 0 1.570796 1.570796</pose>
-
+      <pose>0.10575 0.1255 -0.05 0 1.570796 1.570796</pose>
+      <mass>10.0</mass>
       <collision name="drivewhl_l_collision">
         <geometry>
           <cylinder>
@@ -163,8 +164,8 @@
     </link>
 
     <link name="drivewhl_r_link">
-      <pose>0.10575 0.1255 -0.05 0 1.570796 1.570796</pose>
-
+      <pose>0.10575 -0.1255 -0.05 0 1.570796 1.570796</pose>
+      <mass>10.0</mass>
       <collision name="drivewhl_r_collision">
         <geometry>
           <cylinder>
