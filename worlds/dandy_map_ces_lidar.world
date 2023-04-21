@@ -2591,7 +2591,7 @@
     </light>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>6.74474 7.76852 4.81014 0 0.374 -2.47099</pose>
+        <pose>4.15342 -2.61416 2.56476 0 0.481796 1.8002</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -2609,58 +2609,64 @@
       <surface_model>EARTH_WGS84</surface_model>
       <latitude_deg>33.83</latitude_deg>
       <longitude_deg>-84.42</longitude_deg>
-      <elevation>0.0</elevation>
+      <elevation>0</elevation>
       <heading_deg>180</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>131 289000000</sim_time>
-      <real_time>50 146509900</real_time>
-      <wall_time>1660169013 319235933</wall_time>
-      <iterations>49124</iterations>
-      <model name='dandy_robot'>
-        <pose>-0.128839 -0.034358 0.11808 4e-06 -0.06449 0.072082</pose>
+      <sim_time>861 184000000</sim_time>
+      <real_time>39 358222851</real_time>
+      <wall_time>1673280168 540997766</wall_time>
+      <iterations>22563</iterations>
+      <model name='dandy_robot_lidar'>
+        <pose>4.71822 5.64542 0.118083 -4e-06 -0.064476 -0.103743</pose>
         <scale>1 1 1</scale>
         <link name='back_caster'>
-          <pose>-0.297967 -0.04657 0.039997 4e-06 -0.064507 0.072082</pose>
-          <velocity>3.9e-05 1.4e-05 -0.003309 -0.000267 0.00446 -4.2e-05</velocity>
-          <acceleration>-0.223362 -0.021302 -11.1396 2.47417 0.324216 3.13573</acceleration>
-          <wrench>-2.24479 -0.214082 -111.953 0 -0 0</wrench>
+          <pose>4.54956 5.66298 0.039995 -4e-06 -0.064478 -0.103743</pose>
+          <velocity>-0.001138 0.000181 -0.004807 0.001729 0.016759 -3.2e-05</velocity>
+          <acceleration>-0.930477 0.128279 -9.61387 0.316266 1.03934 -3.06992</acceleration>
+          <wrench>-9.3513 1.2892 -96.6194 0 -0 0</wrench>
         </link>
         <link name='base_footprint'>
-          <pose>-0.128839 -0.034358 0.11808 4e-06 -0.06449 0.072082</pose>
-          <velocity>0.000323 2.7e-05 -0.001431 5.6e-05 4e-05 -4.3e-05</velocity>
-          <acceleration>0.368274 0.035267 -7.51484 -0.037294 0.422149 -0.000428</acceleration>
-          <wrench>0.368274 0.035267 -7.51484 0 -0 0</wrench>
+          <pose>4.71822 5.64542 0.118083 -4e-06 -0.064476 -0.103743</pose>
+          <velocity>-4.5e-05 1.5e-05 0.002651 -6e-05 -0.000645 -6e-05</velocity>
+          <acceleration>1.25783 -0.181476 5.30161 -0.120747 -1.289 0.014478</acceleration>
+          <wrench>1.25783 -0.181476 5.30161 0 -0 0</wrench>
         </link>
         <link name='base_link'>
-          <pose>-0.128839 -0.034358 0.11808 4e-06 -0.06449 0.072082</pose>
-          <velocity>0.000322 2.8e-05 -0.001431 5.5e-05 4.2e-05 -4.3e-05</velocity>
-          <acceleration>0.368 0.035525 -7.51454 -0.039858 0.426447 -0.000363</acceleration>
-          <wrench>0.368 0.035525 -7.51454 0 -0 0</wrench>
+          <pose>4.71822 5.64542 0.118083 -4e-06 -0.064476 -0.103743</pose>
+          <velocity>-4.4e-05 1.5e-05 0.002668 -6.3e-05 -0.000637 -6e-05</velocity>
+          <acceleration>1.25978 -0.181027 5.33643 -0.126282 -1.27311 0.01467</acceleration>
+          <wrench>1.25978 -0.181027 5.33643 0 -0 0</wrench>
         </link>
         <link name='drivewhl_l_link'>
-          <pose>-0.01133 -0.1517 0.074999 -1.57087 1.53245 0.072014</pose>
-          <velocity>0.000308 2.3e-05 -0.001475 5.7e-05 4.2e-05 -4.3e-05</velocity>
-          <acceleration>0.335603 0.029416 -7.62637 -0.035004 0.415147 -0.00066</acceleration>
-          <wrench>0.335603 0.029416 -7.62637 0 -0 0</wrench>
+          <pose>4.83938 5.75899 0.075 -1.57107 1.53071 -0.104004</pose>
+          <velocity>-4.9e-05 4e-06 0.00277 -4.7e-05 -0.000652 -6e-05</velocity>
+          <acceleration>1.23426 -0.187981 5.53908 -0.095251 -1.31491 0.01457</acceleration>
+          <wrench>1.23426 -0.187981 5.53908 0 -0 0</wrench>
         </link>
         <link name='drivewhl_r_link'>
-          <pose>-0.029407 0.098648 0.074999 -1.57088 1.53422 0.072011</pose>
-          <velocity>0.000328 2.5e-05 -0.001274 5e-05 4.2e-05 -4.3e-05</velocity>
-          <acceleration>0.353654 0.031795 -7.25298 -0.047586 0.39157 0.000924</acceleration>
-          <wrench>0.353654 0.031795 -7.25298 0 -0 0</wrench>
+          <pose>4.81339 5.50934 0.075 -1.57109 1.53367 -0.104028</pose>
+          <velocity>-4.8e-05 5e-06 0.002511 -7.1e-05 -0.000637 -6.4e-05</velocity>
+          <acceleration>1.27036 -0.187977 5.02187 -0.144577 -1.30686 0.008156</acceleration>
+          <wrench>1.27036 -0.187977 5.02187 0 -0 0</wrench>
         </link>
         <link name='gps_link'>
-          <pose>-0.104583 -0.099782 0.169442 4e-06 -0.06449 0.072082</pose>
-          <velocity>0.000333 2.5e-05 -0.001542 5.2e-05 3e-05 -4.3e-05</velocity>
-          <acceleration>0.41053 0.040638 -7.73278 -0.0458 0.403087 -9.8e-05</acceleration>
-          <wrench>0.41053 0.040638 -7.73278 0 -0 0</wrench>
+          <pose>4.73065 5.57677 0.169445 -4e-06 -0.064476 -0.103743</pose>
+          <velocity>-3.3e-05 1.7e-05 0.002352 -8.2e-05 -0.000692 -6e-05</velocity>
+          <acceleration>1.29044 -0.176219 4.70402 -0.16457 -1.38342 0.015712</acceleration>
+          <wrench>1.29044 -0.176219 4.70402 0 -0 0</wrench>
         </link>
         <link name='imu_link'>
-          <pose>-0.209943 0.043001 0.163321 4e-06 -0.06449 0.072082</pose>
-          <velocity>0.00034 3.1e-05 -0.00153 4.9e-05 3.5e-05 -4.3e-05</velocity>
-          <acceleration>0.408728 0.041442 -7.69531 -0.051447 0.412429 1.3e-05</acceleration>
-          <wrench>0.408728 0.041442 -7.69531 0 -0 0</wrench>
+          <pose>4.65189 5.73578 0.163323 -4e-06 -0.064476 -0.103743</pose>
+          <velocity>-1.4e-05 2.2e-05 0.002322 -8.8e-05 -0.000673 -6e-05</velocity>
+          <acceleration>1.30701 -0.177024 4.64473 -0.175582 -1.34696 0.015992</acceleration>
+          <wrench>1.30701 -0.177024 4.64473 0 -0 0</wrench>
+        </link>
+        <link name='lidar_link'>
+          <pose>4.8639 5.63026 0.177641 -4e-06 -0.064482 -0.103743</pose>
+          <velocity>4.8e-05 1.4e-05 0.002818 6.5e-05 0.000537 -8.9e-05</velocity>
+          <acceleration>1.4442 -0.164621 5.63528 0.129766 1.07496 -0.042613</acceleration>
+          <wrench>1.73304 -0.197545 6.76234 0 -0 0</wrench>
         </link>
       </model>
       <model name='garden_0'>
@@ -2883,6 +2889,16 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='grey_wall'>
+        <pose>3.11733 1.53265 -2.11544 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>3.11733 1.53265 -0.715444 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='grey_wall_0'>
         <pose>15.0243 5.21157 0 0 -0 1.57</pose>
         <scale>1 1 1</scale>
@@ -3033,6 +3049,36 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='grey_wall_22'>
+        <pose>3.1918 8.80664 -2.11276 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>3.1918 8.80664 -0.712761 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='grey_wall_23'>
+        <pose>-0.548986 5.16412 -2.11493 0 0 -1.58087</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-0.548986 5.16412 -0.714929 0 0 -1.58087</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='grey_wall_24'>
+        <pose>6.96141 5.17353 -2.1075 0 -0 1.57177</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>6.96141 5.17353 -0.707497 0 -0 1.57177</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='grey_wall_3'>
         <pose>11.2137 -8.5 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -3127,9 +3173,189 @@
         <pose>0 0 10 0 -0 0</pose>
       </light>
     </state>
-    <model name='dandy_robot'>
+    <model name='grey_wall'>
+      <static>1</static>
+      <link name='link'>
+        <pose>0 0 1.4 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>7.5 0.2 2.8</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>7.5 0.2 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://grey_wall/materials/scripts</uri>
+              <uri>model://grey_wall/materials/textures</uri>
+              <name>vrc/grey_wall</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>2.86744 1.52948 0 0 -0 0</pose>
+    </model>
+    <model name='grey_wall_22'>
+      <static>1</static>
+      <link name='link'>
+        <pose>0 0 1.4 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>7.5 0.2 2.8</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>7.5 0.2 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://grey_wall/materials/scripts</uri>
+              <uri>model://grey_wall/materials/textures</uri>
+              <name>vrc/grey_wall</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>2.8048 8.89506 0 0 -0 0</pose>
+    </model>
+    <model name='grey_wall_23'>
+      <static>1</static>
+      <link name='link'>
+        <pose>0 0 1.4 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>7.5 0.2 2.8</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>7.5 0.2 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://grey_wall/materials/scripts</uri>
+              <uri>model://grey_wall/materials/textures</uri>
+              <name>vrc/grey_wall</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>8.61257 6.6049 0 0 -0 0</pose>
+    </model>
+    <model name='grey_wall_24'>
+      <static>1</static>
+      <link name='link'>
+        <pose>0 0 1.4 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>7.5 0.2 2.8</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <box>
+              <size>7.5 0.2 2.8</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://grey_wall/materials/scripts</uri>
+              <uri>model://grey_wall/materials/textures</uri>
+              <name>vrc/grey_wall</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>8.7062 2.55532 0 0 -0 0</pose>
+    </model>
+    <model name='dandy_robot_lidar'>
       <static>0</static>
-      <pose>-0.025717 -0.017637 0 0 -0 0</pose>
+      <pose>3.84401 5.69198 0 0 -0 0</pose>
       <link name='base_footprint'>
         <self_collide>0</self_collide>
         <inertial>
@@ -3330,6 +3556,96 @@
           </inertia>
           <mass>1</mass>
         </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='lidar_link'>
+        <pose>0.15 0 0.05 0 -0 0</pose>
+        <inertial>
+          <mass>1.2</mass>
+          <inertia>
+            <ixx>0.00108747</ixx>
+            <iyy>0.00108747</iyy>
+            <izz>0.00109244</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='base_collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.04267</radius>
+              <length>0.05867</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='base_visual'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.04267</radius>
+              <length>0.05867</length>
+            </cylinder>
+          </geometry>
+        </visual>
+        <sensor name='lidar' type='ray'>
+          <pose>0 0 0.025 0 -0 0</pose>
+          <always_on>1</always_on>
+          <visualize>1</visualize>
+          <update_rate>5</update_rate>
+          <ray>
+            <scan>
+              <horizontal>
+                <samples>1875</samples>
+                <resolution>1</resolution>
+                <min_angle>-0.611</min_angle>
+                <max_angle>0.611</max_angle>
+              </horizontal>
+              <vertical>
+                <samples>16</samples>
+                <resolution>1</resolution>
+                <min_angle>-0.261799</min_angle>
+                <max_angle>0</max_angle>
+              </vertical>
+            </scan>
+            <range>
+              <min>0.12</min>
+              <max>3.5</max>
+              <resolution>0.015</resolution>
+            </range>
+            <noise>
+              <type>gaussian</type>
+              <mean>0</mean>
+              <stddev>0.01</stddev>
+            </noise>
+          </ray>
+          <plugin name='scan' filename='libgazebo_ros_velodyne_laser.so'>
+            <ros>
+              <min_range>0.120000</min_range>
+              <max_range>3.5</max_range>
+              <remapping>~/out:=scan</remapping>
+            </ros>
+            <output_type>sensor_msgs/PointCloud2</output_type>
+            <frame_name>base_link</frame_name>
+          </plugin>
+        </sensor>
+        <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
